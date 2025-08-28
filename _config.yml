@@ -1,0 +1,22 @@
+baseURL = "https://simone-weiss.github.io/firstcontribution/"
+title = "A first contributuob to..."
+languageCode = "en-us"
+theme = "minimal"
+paginate = 5
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+   description = "My blog for sharing first OSS contributions"
+   author = "Simone Weiss"
+   hideFooter = false
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+
+[markup]
+   [markup.goldmark]
+     [markup.goldmark.renderer]
+       unsafe = true
